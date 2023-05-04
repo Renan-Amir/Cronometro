@@ -32,7 +32,7 @@ function startTimer() {
             secondsEl.textContent = formatTime(seconds)
             millisecondsEl.textContent = formatMilliseconds(milliseconds)
         }
-    }, 10)
+    }, 10) 
     startBtn.style.display = "none"
     pauseBtn.style.display = "block"
 
