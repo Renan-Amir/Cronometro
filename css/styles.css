@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "orbitron", sans-serif;
+}
+body{
+    background: url("/img/foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #fcc6ff;
+    margin: 100px auto 0px;
+    width: 500px;
+    padding: 3rem;
+    border-radius: 35px;
+}
+.container h1{
+    color: rgb(0, 0, 0);
+}
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+    color: rgb(0, 0, 0);
+}
+.separator{
+    padding: 0 10px;
+    color: #525763;
+}
+#milliseconds{
+    font-size: 30px;
+    color: #525763;
+}
+.button{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    transition: all .2s ease-in-out;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#startBtn{
+    background-color: #000000;
+    color: #fff;
+}
+#pauseBtn, #resumeBtn{
+    display: none;
+}
